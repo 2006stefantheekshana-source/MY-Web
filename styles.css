@@ -1,0 +1,67 @@
+div{
+    width: 200px; height: 70px; background: rgb(0, 0, 0); 
+    transition: width 2s; margin: 15px; padding: 15px;
+}
+body{
+   margin:0 ;
+   height: 100vh;
+   background:linear-gradient(270deg,#02a125,#052488,#72ee87,#cf0606,rgb(0, 4, 204),rgb(7, 255, 214)) ;
+   background-size: 500% 500%;
+   animation: gradientMove 8s ease infinite ;
+
+}
+
+@keyframes gradientMove{
+    0%{background-position: 0% 50;}
+    50%{background-position:100% 50% ;}
+    100%{background-position: 0% 50%;}
+}
+
+
+img{
+    border-radius: 360px; box-shadow: 10px; text-align:right; margin: 5px; padding: 5px;
+}
+
+
+h1{
+    font-size: 60px;  text-align: center; margin:10px; 
+    border-style:outset; color: rgb(255, 255, 255); font-family:cursive ;
+    border-radius: 10px; border-color: rgb(255, 255, 255) ; background-color: black;
+    
+}
+
+div:hover{
+   width: 400px;
+}
+
+p{
+    border: 5px; border-color: rgb(0, 0, 0);  color: black; font-family:cursive ; 
+    font-size: 20px; margin: 15px; padding: 15px; 
+}
+
+h2{
+     color: white; border-radius: 25px;  font-family: cursive;
+
+}
+
+ul{
+    font-family: cursive; margin: 8px; padding: 8px; font-size: 20px;
+}
+
+#A1 {
+      display: flex;
+      list-style: ;
+      padding: 10px;
+      margin: 10px;
+      background: rgb(114, 19, 238);
+}
+
+#A1 li {
+    margin: 0 25px;
+
+}
+
+#A1 li a {
+    color: white;
+    text-decoration: ;
+}
